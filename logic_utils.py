@@ -3,6 +3,8 @@ def get_range_for_difficulty(difficulty: str):
 
     #glitch #7: the range mapping for Normal and Hard must match the intended design.
     #FIX: Used Copilot to correct the ranges for Normal and Hard difficulties to match the intended design and refractored the logic into logic_utils.py
+    if difficulty == "Easy":
+        return 1, 20
     if difficulty == "Normal":
         return 1, 50
     if difficulty == "Hard":
