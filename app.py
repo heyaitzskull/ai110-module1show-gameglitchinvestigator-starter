@@ -98,7 +98,7 @@ if new_game:
     st.session_state.status = "playing" #adding this to reset the game status to playing when starting a new game
     st.session_state.history = [] #reset history for new game
     st.session_state.score = 0 #reset score for new game
-
+ 
     st.rerun()
 
 if st.session_state.status != "playing":

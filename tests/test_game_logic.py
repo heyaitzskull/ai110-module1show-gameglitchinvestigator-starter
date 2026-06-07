@@ -9,7 +9,7 @@ def test_guess_too_high():
     result = check_guess(60, 50)
     assert result == ("Too High", "📉 Go LOWER!")
 
-def test_guess_too_low():
+def test_guess_too_low(): 
     result = check_guess(40, 50)
     assert result == ("Too Low", "📈 Go HIGHER!")
 def test_check_guess_with_str_secret():

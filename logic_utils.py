@@ -10,7 +10,7 @@ def get_range_for_difficulty(difficulty: str):
     if difficulty == "Hard":
         return 1, 100
     return 1, 100
-
+  
 
 def parse_guess(raw: str):
     """Parse user input into an int guess.
